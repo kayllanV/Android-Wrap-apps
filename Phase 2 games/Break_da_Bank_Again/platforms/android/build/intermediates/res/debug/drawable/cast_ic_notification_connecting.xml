@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2015 Google Inc. All Rights Reserved. -->
+
+<animation-list
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:oneshot="false">
+    <item android:drawable="@drawable/cast_ic_notification_0" android:duration="500" />
+    <item android:drawable="@drawable/cast_ic_notification_1" android:duration="500" />
+    <item android:drawable="@drawable/cast_ic_notification_2" android:duration="500" />
+    <item android:drawable="@drawable/cast_ic_notification_1" android:duration="500" />
+</animation-list>
+<!-- From: file:/Users/AswiniLavu/Documents/softwares/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/res/drawable/cast_ic_notification_connecting.xml --><!-- From: file:/Users/AswiniLavu/Documents/new%20projects/Break_da_Bank_Again/platforms/android/build/intermediates/exploded-aar/android.............softwares.adt-bundle-mac-x86_64-20140702.sdk.extras.google.google_play_services.libproject/google-play-services_lib/unspecified/debug/res/drawable/cast_ic_notification_connecting.xml -->

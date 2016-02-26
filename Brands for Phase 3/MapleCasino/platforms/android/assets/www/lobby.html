@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html manifest="/Lobby/en/crazyvegas/manifest/manifest.appcache">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <title>Maple Casino</title>
+  <script type='text/javascript' src="http://wurfl.io/wurfl.js"></script>
+ <script>
+  if (navigator.userAgent.match(/Mobi/)) {
+    document.write('<link rel="stylesheet" type="text/css" href="css/lobby-smartphone.css">');
+   } else{
+    document.write('<link rel="stylesheet" type="text/css" href="css/lobby.css">');
+   }
+    
+ </script>
+ 
+</head>
+<body>
+    <div class="lobby-container" lang="en">
+<div id="dialogContainerOuter" class="lobby-dialog-outer">
+    <div id="dialogContainer" class="lobby-dialog">
+        <div id="dialog" class="dialog-container scrollable">
+            <div class="dialog-panel">
+                <hgroup>
+                    <h1 id="dialogTitle"></h1>
+                    <span id="dialogCloseBttn" class="dialog-bttn-close"></span>
+                </hgroup>
+                <div class="dialog-form-actions">
+                    <div id="dialogMessage">
+                    </div>
+                    <nav>
+                    </nav>
+                    <div class="dialog-checkbox" style="display: none;">
+                        <div data-checked="false">
+                            <span></span>
+                        </div>
+                        <p>Auto Login?</p>
+                    </div>
+                    <!--if the nemid is needed the auto login needs to be removed-->
+                    <div id="dialogLinkLeft" class="dialog-link" style="display: none;">
+                        <p></p>
+                    </div>
+                    <div id="dialogLinkRight" class="dialog-link" style="display: none;">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="loginInnerHtml" style="display: none;">
+    <fieldset>
+        <input placeholder="Username" type="text" name="username" autocomplete="off" autocorrect="off" spellcheck="false" autocapitalize="off" value="">
+        <input placeholder="Password" type="password" name="password" autocomplete="off" value="">
+    </fieldset>
+    <p class="dialog-text-error"></p>
+</div>
+
+
+<header id="lobbyHeader" class="lobby-header">
+  <div class="lobby-logo">
+    <img src="img/lobby-logo.png" />
+  </div>
+  <div id="headerBalance" class="lobby-balance">
+    <p id="playerName"></p>
+    <p id="playerBalance"></p>
+  </div>
+
+    <div id="headerPromotionsMessage" class="promotions-message" style="display: none">
+      <img src="img/promotions-message.png">
+    </div>
+  <div id="winRealMoney" class="win-real-money hide">
+    <span>Win Real Money</span>
+  </div>
+</header>
+
+<div id="spin"></div>
+
+        <div class="lobby-content" id="lobbyContent">
+            <div id="contentContainer">
+                
+<div class="lobby-games-list-container">
+    <div class="lobby-games-list" id="lobbyGamesList">
+        <ul id="games">
+                    <li id="ageOfDiscovery">
+                        <span>
+                            <i class="ageOfDiscovery"></i>
+                        </span>
+
+                        <p>Age of Discovery</p>
+                    </li>
+                    <li id="mayanPrincess">
+                        <span>
+                            <i class="mayanPrincess"></i>
+                        </span>
+
+                        <p>Mayan Princess</p>
+                    </li>
+                    <li id="tigersEye">
+                        <span>
+                            <i class="tigersEye"></i>
+                        </span>
+
+                        <p>Tiger&#39;s Eye</p>
+                    </li>
+                    <li id="theTwistedCircus">
+                        <span>
+                            <i class="theTwistedCircus"></i>
+                        </span>
+
+                        <p>The Twisted Circus</p>
+                    </li>
+                    <li id="thunderstruckII">
+                        <span>
+                            <i class="thunderstruckII"></i>
+                        </span>
+
+                        <p>Thunderstruck II</p>
+                    </li>
+                    <li id="tombRaider">
+                        <span>
+                            <i class="tombRaider"></i>
+                        </span>
+
+                        <p>Tomb Raider</p>
+                    </li>
+                    <li id="mysticDreams">
+                        <span>
+                            <i class="mysticDreams"></i>
+                        </span>
+
+                        <p>Mystic Dreams</p>
+                    </li>
+                    <li id="silverFang">
+                        <span>
+                            <i class="silverFang"></i>
+                        </span>
+
+                        <p>Silver Fang</p>
+                    </li>
+                    <li id="theGrandJourney">
+                        <span>
+                            <i class="theGrandJourney"></i>
+                        </span>
+
+                        <p>The Grand Journey</p>
+                    </li>
+
+        </ul>
+    </div>
+</div>
+
+            </div>
+            <div class="formsServiceContainer" id="formsServiceContainer" style="display: none;">
+                <div id="content-wrapper">
+                    <div id="inject">
+                        
+                    </div>
+                </div>
+                <div id="hiddenOverlay"></div>
+            </div>
+        </div>
+
+<nav class="lobby-nav" style="display: block;">
+  <ul>
+  </ul>
+</nav>
+
+    </div>
+
+
+<div class="overlay-message" id="overlay-message">
+    <div class="lobby-logo">
+        <img src="img/lobby-logo.png" />
+    </div>
+    <div class="image-container"><img src="" /></div>
+    <div class="message-container">
+        <h2 class="message-title" id="overlay-message-message-title"></h2>
+        <p class="message-body" id="overlay-message-message-body"></p>
+    </div>
+    <div class="button-action" id="overlay-message-button-action"><span class="button-text"></span></div>
+    <p class="close-text">Tap to Close</p>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+     
+    $(function () {
+        $("#games li").click(function () {
+           // window.open("https://mobile2.gameassists.co.uk/MobileWebServices/casino/game/launch/"+this.id+"/en?isPracticePlay=true", "_self");
+            window.open("https://mobile2.gameassists.co.uk/MobileWebGames/game/mgs/4_0_4?lobbyURL=&moduleID=10025&clientID=40308&LanguageCode=en&clientTypeID=40&casinoID=&lobbyName=CrazyVegas&loginType=PlayerService&bankingURL=&xmanEndPoints=https%3A%2F%2Fxplaymobile2.gameassists.co.uk%2FXMan%2Fx.x&routerEndPoints=&disablePoweredBy=false&currencyFormat=&isPracticePlay=true&gameName="+this.id+"&gameTitle="+this.id+"&isRGI=true", "_self");
+        });
+    });
+    
+</script>
+</body>
+</html>

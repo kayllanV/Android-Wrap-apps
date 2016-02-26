@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html manifest="/Lobby/en/goldenriviera/manifest/manifest.appcache">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  
+  <script type='text/javascript' src="http://wurfl.io/wurfl.js"></script>
+  <script>
+  if (navigator.userAgent.match(/Mobi/)) {
+    document.write('<link rel="stylesheet" type="text/css" href="css/lobby_smartphone.css">');
+   } else{
+    document.write('<link rel="stylesheet" type="text/css" href="css/lobby.css">');
+   }
+    
+  
+ </script>
+     <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript">
+
+    $( document ).ready(function() {
+      
+      jQuery.ajax ({ 
+      url: 'http://freegeoip.net/json/', 
+      type: 'POST', 
+      dataType: 'jsonp',
+          success: function(location) { 
+
+              var a = ["Australia", "Germany", "New Zealand", "Canada", "United Kingdom"];
+			  
+                  switch(location.country_name){
+          			  	case a[0] :
+          			  			window.location = "index.html";
+          			  			break;
+          			  	case a[1] :
+          			  		window.location = "index.html";
+          	  				   break;
+          			  	case a[2] :
+          			  		window.location = "index.html";
+          		  			break;
+          		  		case a[3] :
+          		  			window.location = "index.html";
+            				   break;
+          		  		case a[4] :
+          		  			window.location = "index.html";
+          	  				   break;
+          	  			default :
+          	  				console.log("load index page");
+          			  }
+              
+          },
+
+          error: function(location) { 
+                console.log("could not get location");
+          }
+      });
+    });
+
+      </script>
+
+
+  <title>GoldenRiviera</title>
+
+</head>
+<body>
+    <div class="lobby-container" lang="en">
+<div id="dialogContainerOuter" class="lobby-dialog-outer">
+    <div id="dialogContainer" class="lobby-dialog">
+        <div id="dialog" class="dialog-container scrollable">
+            <div class="dialog-panel">
+                <hgroup>
+                    <h1 id="dialogTitle"></h1>
+                    <span id="dialogCloseBttn" class="dialog-bttn-close"></span>
+                </hgroup>
+                <div class="dialog-form-actions">
+                    <div id="dialogMessage">
+                    </div>
+                    <nav>
+                    </nav>
+                    <div class="dialog-checkbox" style="display: none;">
+                        <div data-checked="false">
+                            <span></span>
+                        </div>
+                        <p>Auto Login?</p>
+                    </div>
+                    <!--if the nemid is needed the auto login needs to be removed-->
+                    <div id="dialogLinkLeft" class="dialog-link" style="display: none;">
+                        <p></p>
+                    </div>
+                    <div id="dialogLinkRight" class="dialog-link" style="display: none;">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="loginInnerHtml" style="display: none;">
+    <fieldset>
+        <input placeholder="Username" type="text" name="username" autocomplete="off" autocorrect="off" spellcheck="false" autocapitalize="off" value="">
+        <input placeholder="Password" type="password" name="password" autocomplete="off" value="">
+    </fieldset>
+    <p class="dialog-text-error"></p>
+</div>
+
+
+<header id="lobbyHeader" class="lobby-header">
+  <div class="lobby-logo">
+    <img src="img/lobby-logo.png" />
+  </div>
+  <div id="headerBalance" class="lobby-balance">
+    <p id="playerName"></p>
+    <p id="playerBalance"></p>
+  </div>
+
+    <div id="headerPromotionsMessage" class="promotions-message" style="display: none">
+      <img src="/Lobby/Branding/GoldenRiviera/Images/en/promotions-message.png">
+    </div>
+  <div id="winRealMoney" class="win-real-money hide">
+    <span>Win Real Money</span>
+  </div>
+</header>
+
+        <div class="lobby-content" id="lobbyContent">
+            <div id="contentContainer">
+                
+<div class="lobby-games-list-container">
+    <div class="lobby-games-list" id="lobbyGamesList">
+        <ul>
+                    <li id="ageOfDiscovery">
+                        <span>
+                            <i class="ageOfDiscovery"></i>
+                        </span>
+
+                        <p>Age of Discovery</p>
+                    </li>
+                    <li id="mayanPrincess">
+                        <span>
+                            <i class="mayanPrincess"></i>
+                        </span>
+
+                        <p>Mayan Princess</p>
+                    </li>
+                    <li id="tigersEye">
+                        <span>
+                            <i class="tigersEye"></i>
+                        </span>
+
+                        <p>Tiger&#39;s Eye</p>
+                    </li>
+                    <li id="theTwistedCircus">
+                        <span>
+                            <i class="theTwistedCircus"></i>
+                        </span>
+
+                        <p>The Twisted Circus</p>
+                    </li>
+                    <li id="thunderstruckII">
+                        <span>
+                            <i class="thunderstruckII"></i>
+                        </span>
+
+                        <p>Thunderstruck II</p>
+                    </li>
+                    <li id="tombRaider">
+                        <span>
+                            <i class="tombRaider"></i>
+                        </span>
+
+                        <p>Tomb Raider</p>
+                    </li>
+                    <li id="mysticDreams">
+                        <span>
+                            <i class="mysticDreams"></i>
+                        </span>
+
+                        <p>Mystic Dreams</p>
+                    </li>
+                    <li id="silverFang">
+                        <span>
+                            <i class="silverFang"></i>
+                        </span>
+
+                        <p>Silver Fang</p>
+                    </li>
+                    <li id="theGrandJourney">
+                        <span>
+                            <i class="theGrandJourney"></i>
+                        </span>
+
+                        <p>The Grand Journey</p>
+                    </li>
+
+        </ul>
+    </div>
+</div>
+
+            </div>
+            <div class="formsServiceContainer" id="formsServiceContainer" style="display: none;">
+                <div id="content-wrapper">
+                    <div id="inject">
+                        
+                    </div>
+                </div>
+                <div id="hiddenOverlay"></div>
+            </div>
+        </div>
+
+<nav class="lobby-nav">
+
+</nav>
+    </div>
+
+
+<div class="overlay-message" id="overlay-message">
+    <div class="lobby-logo">
+        <img src="img/lobby-logo.png" />
+    </div>
+    <div class="image-container"><img src="" /></div>
+    <div class="message-container">
+        <h2 class="message-title" id="overlay-message-message-title"></h2>
+        <p class="message-body" id="overlay-message-message-body"></p>
+    </div>
+    <div class="button-action" id="overlay-message-button-action"><span class="button-text"></span></div>
+    <p class="close-text">Tap to Close</p>
+</div>
+
+    <!-- Load lobby scripts -->
+    <script>var RequestData = {"BannerTags":{"bannerTag1":"","bannerTag2":"","bannerTag3":"","bannerTag4":"","bannerTag5":""},"autoLoginRequested":null,"loginNameRequested":"","SampleHddID":"3141E8D15F6C6F44","SampleMachineID":"8FEA093C34923749B1C2D455DB86BE84B5187BE5","InitialView":"games","CurrentGameCategory":"newgames"};</script>
+    <script type="text/javascript" src="js/lobbydata.js"></script>
+    <script type="text/javascript" src="js/lobby.js"></script>
+    <script src="https://service2.gameassists.co.uk/Playerservice/Playerservice/GetClient?variablename=playerSvc&lobbyname=goldenriviera&clientlang=en&t=1417601989.30322"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/calendar.js"></script>
+<script>
+
+    $("#play").click(function(){
+     app.initialize();
+    }); 
+
+    $("#moreGames").click(function(){
+     app.initialize();
+    }); 
+    
+    $("#ageOfDiscovery").click(function(){
+    	window.location.href = "http://mobile2.gameassists.co.uk/MobileWebGames/game/mgs/4_1_4?lobbyURL=http%3A%2F%2Fmobile2.gameassists.co.uk%2FMobileWebLobby%2F%3F&moduleID=12531&clientID=40300+&gameName=ageOfDiscovery&gameTitle=ageOfDiscovery&LanguageCode=en&clientTypeID=40&casinoID=2258&lobbyName=Betway&loginType=FullUPE&bankingURL=http%3A%2F%2Fmobile2.gameassists.co.uk+%2FMobileWebLobby%2F%3F&xmanEndPoints=https%3A%2F%2Fmobile2.gameassists.co.uk%2FXMan%2Fx.x&routerEndPoints=&disablePoweredBy=false&currencyFormat=&isPracticePlay=true&isRGI=true";
+	});
+
+    $("#mayanPrincess").click(function(){
+    	window.location.href = "http://mobile2.gameassists.co.uk/MobileWebGames/game/mgs/4_1_4?lobbyURL=http%3A%2F%2Fmobile2.gameassists.co.uk%2FMobileWebLobby%2F%3F&moduleID=12531&clientID=40300+&gameName=mayanPrincess&gameTitle=mayanPrincess&LanguageCode=en&clientTypeID=40&casinoID=2258&lobbyName=Betway&loginType=FullUPE&bankingURL=http%3A%2F%2Fmobile2.gameassists.co.uk+%2FMobileWebLobby%2F%3F&xmanEndPoints=https%3A%2F%2Fmobile2.gameassists.co.uk%2FXMan%2Fx.x&routerEndPoints=&disablePoweredBy=false&currencyFormat=&isPracticePlay=true&isRGI=true";
+    });
+
+    $("#tigersEye").click(function(){
+    	window.location.href = "http://mobile2.gameassists.co.uk/MobileWebGames/game/mgs/4_1_4?lobbyURL=http%3A%2F%2Fmobile2.gameassists.co.uk%2FMobileWebLobby%2F%3F&moduleID=12531&clientID=40300+&gameName=tigersEye&gameTitle=tigersEye&LanguageCode=en&clientTypeID=40&casinoID=2258&lobbyName=Betway&loginType=FullUPE&bankingURL=http%3A%2F%2Fmobile2.gameassists.co.uk+%2FMobileWebLobby%2F%3F&xmanEndPoints=https%3A%2F%2Fmobile2.gameassists.co.uk%2FXMan%2Fx.x&routerEndPoints=&disablePoweredBy=false&currencyFormat=&isPracticePlay=true&isRGI=true";
+	});
+
+    $("#theTwistedCircus").click(function(){
+    	window.location.href = "http://mobile2.gameassists.co.uk/MobileWebGames/game/mgs/4_1_4?lobbyURL=http%3A%2F%2Fmobile2.gameassists.co.uk%2FMobileWebLobby%2F%3F&moduleID=12531&clientID=40300+&gameName=theTwistedCircus&gameTitle=theTwistedCircus&LanguageCode=en&clientTypeID=40&casinoID=2258&lobbyName=Betway&loginType=FullUPE&bankingURL=http%3A%2F%2Fmobile2.gameassists.co.uk+%2FMobileWebLobby%2F%3F&xmanEndPoints=https%3A%2F%2Fmobile2.gameassists.co.uk%2FXMan%2Fx.x&routerEndPoints=&disablePoweredBy=false&currencyFormat=&isPracticePlay=true&isRGI=true";
+	});
+
+    $("#mysticDreams").click(function(){
+    	window.location.href = "http://mobile2.gameassists.co.uk/MobileWebGames/game/mgs/4_1_4?lobbyURL=http%3A%2F%2Fmobile2.gameassists.co.uk%2FMobileWebLobby%2F%3F&moduleID=12531&clientID=40300+&gameName=mysticDreams&gameTitle=mysticDreams&LanguageCode=en&clientTypeID=40&casinoID=2258&lobbyName=Betway&loginType=FullUPE&bankingURL=http%3A%2F%2Fmobile2.gameassists.co.uk+%2FMobileWebLobby%2F%3F&xmanEndPoints=https%3A%2F%2Fmobile2.gameassists.co.uk%2FXMan%2Fx.x&routerEndPoints=&disablePoweredBy=false&currencyFormat=&isPracticePlay=true&isRGI=true";
+	});
+
+    $("#silverFang").click(function(){
+    	window.location.href = "http://mobile2.gameassists.co.uk/MobileWebGames/game/mgs/4_1_4?lobbyURL=http%3A%2F%2Fmobile2.gameassists.co.uk%2FMobileWebLobby%2F%3F&moduleID=12531&clientID=40300+&gameName=silverFang&gameTitle=silverFang&LanguageCode=en&clientTypeID=40&casinoID=2258&lobbyName=Betway&loginType=FullUPE&bankingURL=http%3A%2F%2Fmobile2.gameassists.co.uk+%2FMobileWebLobby%2F%3F&xmanEndPoints=https%3A%2F%2Fmobile2.gameassists.co.uk%2FXMan%2Fx.x&routerEndPoints=&disablePoweredBy=false&currencyFormat=&isPracticePlay=true&isRGI=true";
+	});
+    
+    $("#thunderstruckII").click(function(){
+    	window.location.href = "http://mobile2.gameassists.co.uk/MobileWebGames/game/mgs/4_1_4?lobbyURL=http%3A%2F%2Fmobile2.gameassists.co.uk%2FMobileWebLobby%2F%3F&moduleID=12531&clientID=40300+&gameName=thunderstruckII&gameTitle=thunderstruckII&LanguageCode=en&clientTypeID=40&casinoID=2258&lobbyName=Betway&loginType=FullUPE&bankingURL=http%3A%2F%2Fmobile2.gameassists.co.uk+%2FMobileWebLobby%2F%3F&xmanEndPoints=https%3A%2F%2Fmobile2.gameassists.co.uk%2FXMan%2Fx.x&routerEndPoints=&disablePoweredBy=false&currencyFormat=&isPracticePlay=true&isRGI=true";
+	});
+
+    $("#tombRaider").click(function(){
+    	window.location.href = "http://mobile2.gameassists.co.uk/MobileWebGames/game/mgs/4_1_4?lobbyURL=http%3A%2F%2Fmobile2.gameassists.co.uk%2FMobileWebLobby%2F%3F&moduleID=12531&clientID=40300+&gameName=tombRaider&gameTitle=tombRaider&LanguageCode=en&clientTypeID=40&casinoID=2258&lobbyName=Betway&loginType=FullUPE&bankingURL=http%3A%2F%2Fmobile2.gameassists.co.uk+%2FMobileWebLobby%2F%3F&xmanEndPoints=https%3A%2F%2Fmobile2.gameassists.co.uk%2FXMan%2Fx.x&routerEndPoints=&disablePoweredBy=false&currencyFormat=&isPracticePlay=true&isRGI=true";
+    });
+
+    $("#theGrandJourney").click(function(){
+    	window.location.href = "http://mobile2.gameassists.co.uk/MobileWebGames/game/mgs/4_1_4?lobbyURL=http%3A%2F%2Fmobile2.gameassists.co.uk%2FMobileWebLobby%2F%3F&moduleID=12531&clientID=40300+&gameName=theGrandJourney&gameTitle=theGrandJourney&LanguageCode=en&clientTypeID=40&casinoID=2258&lobbyName=Betway&loginType=FullUPE&bankingURL=http%3A%2F%2Fmobile2.gameassists.co.uk+%2FMobileWebLobby%2F%3F&xmanEndPoints=https%3A%2F%2Fmobile2.gameassists.co.uk%2FXMan%2Fx.x&routerEndPoints=&disablePoweredBy=false&currencyFormat=&isPracticePlay=true&isRGI=true";
+	});
+
+</script>
+
+</body>
+</html>

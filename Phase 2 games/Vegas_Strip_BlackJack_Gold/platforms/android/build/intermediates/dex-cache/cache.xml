@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ASWINI\Documents\top 20 games\Vegas_Strip_BlackJack_Gold\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="90b365345c8aa53f7dd99b2b3b0b0410429e4aaa">
+        <dex dex="C:\Users\ASWINI\Documents\top 20 games\Vegas_Strip_BlackJack_Gold\platforms\android\build\intermediates\pre-dexed\debug\classes-3a9f75cab105a406e9db5c9efd567588bd9ed6d4.jar" />
+    </item>
+
+</items>

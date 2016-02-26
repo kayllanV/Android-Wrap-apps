@@ -1,0 +1,5 @@
+/Users/AswiniLavu/Documents/new projects/LuckyLeprechaun/platforms/android/build/intermediates/classes/debug
+/Users/AswiniLavu/Documents/new projects/LuckyLeprechaun/platforms/android/build/intermediates/pre-dexed/debug/classes-0d7a8380132b435f0c56cf22d3109102405aa8d9.jar
+/Users/AswiniLavu/Documents/new projects/LuckyLeprechaun/platforms/android/build/intermediates/pre-dexed/debug/AF-Android-SDK-v3.3.0-9c47a005c7fb68d52ff254967896df8b0fd0d105.jar
+/Users/AswiniLavu/Documents/new projects/LuckyLeprechaun/platforms/android/build/intermediates/pre-dexed/debug/classes-fb7e66a831c09df39c5574cebfd5023e16aad377.jar
+/Users/AswiniLavu/Documents/new projects/LuckyLeprechaun/platforms/android/build/intermediates/pre-dexed/debug/google-play-services-37751015391049a2245063ef0dd6b12197660f98.jar

@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insert title here</title>
+
+
+<link rel="stylesheet" type="text/css" href="css/landing.css" />
+</head>
+<script type="text/javascript">
+	function getParameterByName(name) {
+	    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+	    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+	        results = regex.exec(location.search);
+	    return results === null ? "" : decodeURIComponent(results[1].replace(
+	        /\+/g, " "));
+	}
+	
+	function loadUrl(location) {
+	    app.url = "http://www.c9casino.com/games.aspx";
+	    var ref = window.open(app.url, '_self', 'location=no');
+	    app.ref.show();
+	    app.ref.addEventListener('exit', function(event) {
+	        navigator.app.exitApp();
+	    });
+	}
+	
+	function changeLanguage() {
+	    var param = getParameterByName("btag");
+	    var select = document.getElementById("langu");
+	    var language = select.options[select.selectedIndex].value;
+	    var url = " ";
+	    if (param == "") {
+	        url =
+	            "https://mobile2.gameassists.co.uk/MobileWebServices_40/casino/game/launch/CrazyVegas/ariana/" +
+	            language +
+	            "?&Bannertag1=w32361c847p003b11372d&bannertag2=2&ispracticeplay=false"
+	    } else {
+	        url =
+	            "https://mobile2.gameassists.co.uk/MobileWebServices_40/casino/game/launch/CrazyVegas/ariana/" +
+	            language + "?&Bannertag1=" + param +
+	            "&bannertag2=2&ispracticeplay=false";
+	    }
+	    var ref = window.open(url, '_ref', 'location=no');
+	    ref.show();
+	    app.ref.addEventListener('exist', function(event) {
+	        navigator.app.exitApp();
+	    });
+	}
+</script>
+<body>
+ <div class="wrap">
+ </div>
+ 
+ <div class="components"></div>
+ 	<div class="logo">
+ 		
+ 	</div>
+ 
+	 <div class="buttons">
+	   <div class="real">
+		 <input id="real"  type="button" value="Play for Real">
+	   </div>
+	   <div  class="free">
+	 	 <input class="free" type="button" value="Play for Free">
+	   </div>
+	 </div>
+
+</body>
+</html>

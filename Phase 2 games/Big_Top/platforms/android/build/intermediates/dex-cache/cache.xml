@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ASWINI\Documents\top 20 games\Big_Top\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fc35a39770683b8e3e44f2a157fcafb530008315">
+        <dex dex="C:\Users\ASWINI\Documents\top 20 games\Big_Top\platforms\android\build\intermediates\pre-dexed\debug\classes-c4e3eac84f86d7ec034b4724382232916c0db6b0.jar" />
+    </item>
+
+</items>

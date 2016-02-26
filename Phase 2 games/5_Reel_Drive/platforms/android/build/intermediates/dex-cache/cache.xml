@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/AswiniLavu/Documents/new projects/5_Reel_Drive/platforms/android/build/intermediates/exploded-aar/android.............softwares.adt-bundle-mac-x86_64-20140702.sdk.extras.google.google_play_services.libproject/google-play-services_lib/unspecified/debug/libs/google-play-services.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8434271bf62e19a955cda85dc23ac4258e58b32f">
+        <dex dex="/Users/AswiniLavu/Documents/new projects/5_Reel_Drive/platforms/android/build/intermediates/pre-dexed/debug/google-play-services-324f5c360854ccbe68fcee8cb5af547f7d8079c0.jar" />
+    </item>
+    <item
+        jar="/Users/AswiniLavu/Documents/new projects/5_Reel_Drive/platforms/android/build/intermediates/exploded-aar/android.............softwares.adt-bundle-mac-x86_64-20140702.sdk.extras.google.google_play_services.libproject/google-play-services_lib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a99d745f15f98a8731c64bf5e6698c37405efdcb">
+        <dex dex="/Users/AswiniLavu/Documents/new projects/5_Reel_Drive/platforms/android/build/intermediates/pre-dexed/debug/classes-49404f15a0524b9685cf46d6b5a36078083505be.jar" />
+    </item>
+    <item
+        jar="/Users/AswiniLavu/Documents/new projects/5_Reel_Drive/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="461a64c724dd51f5b9887d2249b9f38169b4c62b">
+        <dex dex="/Users/AswiniLavu/Documents/new projects/5_Reel_Drive/platforms/android/build/intermediates/pre-dexed/debug/classes-591900458ae48e0b23ff2a51d81f33c28695229b.jar" />
+    </item>
+    <item
+        jar="/Users/AswiniLavu/Documents/new projects/5_Reel_Drive/platforms/android/libs/AF-Android-SDK-v3.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="06b5e4f90813a722b62e7a81ce0f681b338e1e2b">
+        <dex dex="/Users/AswiniLavu/Documents/new projects/5_Reel_Drive/platforms/android/build/intermediates/pre-dexed/debug/AF-Android-SDK-v3.3.0-c0fda90eb408017cc4588d15c10c5b09e45fe533.jar" />
+    </item>
+
+</items>

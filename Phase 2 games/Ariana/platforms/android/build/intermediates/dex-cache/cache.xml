@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/AswiniLavu/Documents/new projects/Ariana/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cfad4431f3c2547a1833d105f1f710d3f953fed2">
+        <dex dex="/Users/AswiniLavu/Documents/new projects/Ariana/platforms/android/build/intermediates/pre-dexed/debug/classes-2c0dba2329c52ab2108a76fc9fd495b5781cea71.jar" />
+    </item>
+
+</items>

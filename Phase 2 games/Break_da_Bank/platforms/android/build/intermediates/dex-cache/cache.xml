@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/AswiniLavu/Documents/new projects/Break_da_Bank/platforms/android/libs/AF-Android-SDK-v3.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="06b5e4f90813a722b62e7a81ce0f681b338e1e2b">
+        <dex dex="/Users/AswiniLavu/Documents/new projects/Break_da_Bank/platforms/android/build/intermediates/pre-dexed/debug/AF-Android-SDK-v3.3.0-78b5055cc430cda173daf673dc78af678bb000c5.jar" />
+    </item>
+    <item
+        jar="/Users/AswiniLavu/Documents/new projects/Break_da_Bank/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9d449daf38090a829d9583324d3ea23cdf6b1ca5">
+        <dex dex="/Users/AswiniLavu/Documents/new projects/Break_da_Bank/platforms/android/build/intermediates/pre-dexed/debug/classes-c4d428a3c36e56de1e2dc4d036e16bc4ebb4d657.jar" />
+    </item>
+    <item
+        jar="/Users/AswiniLavu/Documents/new projects/Break_da_Bank/platforms/android/build/intermediates/exploded-aar/android.............softwares.adt-bundle-mac-x86_64-20140702.sdk.extras.google.google_play_services.libproject/google-play-services_lib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bc10fc838fbeb0a46c0ee85dc2d2aa3efd96d345">
+        <dex dex="/Users/AswiniLavu/Documents/new projects/Break_da_Bank/platforms/android/build/intermediates/pre-dexed/debug/classes-a66f9e3520bbfe1f8a0587a9a3ce5e51df6be0fe.jar" />
+    </item>
+    <item
+        jar="/Users/AswiniLavu/Documents/new projects/Break_da_Bank/platforms/android/build/intermediates/exploded-aar/android.............softwares.adt-bundle-mac-x86_64-20140702.sdk.extras.google.google_play_services.libproject/google-play-services_lib/unspecified/debug/libs/google-play-services.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8434271bf62e19a955cda85dc23ac4258e58b32f">
+        <dex dex="/Users/AswiniLavu/Documents/new projects/Break_da_Bank/platforms/android/build/intermediates/pre-dexed/debug/google-play-services-4bd4062895f9c62e132ba4faed72638988f8c2bd.jar" />
+    </item>
+
+</items>

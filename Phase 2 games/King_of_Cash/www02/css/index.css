@@ -1,0 +1,99 @@
+
+
+
+
+body{
+
+
+    width  : 100%;
+    height : 100%;
+    margin : 0px;
+    padding : opx;
+    
+    }
+    
+.logo{
+
+   width  : 288px;
+   height : 108px;
+   
+   }
+   
+.language_bckground{
+
+    background-image :url("../img/background-ipad.jpg");
+    background-size : cover;
+    
+     }
+     
+.container{
+
+    max-width : 95;
+    
+       }
+       
+.content{
+
+    width : 65%;
+     
+        }
+        
+.sidebar{
+
+      width : 30%;
+      
+        }
+        
+table{
+
+      margin-left : 400px;
+      border-spacing : 100px;
+      
+      }
+      
+.center{
+
+      margin : auto;
+      width : 26%;
+      padding :10px;
+      
+       }
+       
+@media only screen and (max-height : 740px) and (max-width : 480px) and (orientation : portrait){
+
+    .language_bckground{
+    
+        background-image : url("../img/background-portrait.jpg");
+        background-size : cover;
+        
+               }
+               
+     table{
+     
+         margin-left : -66px;
+         border-spacing : 89px;
+         
+         }
+    }
+    
+@media only screen and (max-height : 480px) and (max-width : 740px) and (orientation : landscape){
+
+      .language_bckground{
+      
+             background-image : url("../img/background-landscape.jpg");
+             background-size : cover;
+             
+                   }
+                   
+                   
+       table{
+       
+           margin-left : 5px;
+           border-spacing : 55px;
+           
+            }
+            
+            
+    }
+      
+      

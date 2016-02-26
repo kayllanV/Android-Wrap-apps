@@ -1,0 +1,2 @@
+/Users/AswiniLavu/Documents/new projects/Ariana/platforms/android/build/intermediates/classes/debug
+/Users/AswiniLavu/Documents/new projects/Ariana/platforms/android/build/intermediates/pre-dexed/debug/classes-2c0dba2329c52ab2108a76fc9fd495b5781cea71.jar

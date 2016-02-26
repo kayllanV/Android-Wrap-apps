@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ASWINI\Documents\top 20 games\Classic_Blackjack_Gold\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8da8523a096bd181b29b056a8d56a51ef750802b">
+        <dex dex="C:\Users\ASWINI\Documents\top 20 games\Classic_Blackjack_Gold\platforms\android\build\intermediates\pre-dexed\debug\classes-82c57c94039fef531d99c9b172dfdab5712d2618.jar" />
+    </item>
+
+</items>

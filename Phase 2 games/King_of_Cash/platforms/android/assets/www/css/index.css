@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px ;
+    
+    
+}
+
+.logo {
+	width:185px;
+	height:100px
+}
+
+.language_bckground {
+	background-image: url("../img/background-ipad.jpg");
+    background-size: cover no-repeat;
+    
+    
+        
+}
+
+
+
+.container {
+    max-width: 955px;
+}
+.content {
+    width: 65%;
+}
+.sidebar {
+    width: 30%;
+}
+
+/* //////////////////////////////////  */
+
+table{
+    margin-top: 95px;                                                     
+    border-spacing: 75px;
+    
+}
+
+
+.center {
+    margin: auto;
+        width: 26%;
+    padding: 10px;
+}
+
+@media only screen  and (max-height : 740px) and (max-width : 480px) and (orientation : portrait){
+.language_bckground{
+
+background-image : url("../img/background-portrait.jpg");
+background-size  : cover ;
+
+           }
+           
+    
+    
+    table{
+    margin-top: -55px;                                                     
+    border-spacing: 75px;
+    }
+ }
+ 				
+
+
+ 
+
+@media only screen  and (max-height : 480px) and (max-width : 740px)and (orientation : landscape){
+.language_bckground{
+background-image : url("../img/background-landscape.jpg");
+background-size  : cover ;
+height : 400px ;
+
+					}
+
+					
+	
+	table{
+    margin-top: -73px;                                                     
+    border-spacing: 60px;
+    
+    }
+   
+    
+}	    

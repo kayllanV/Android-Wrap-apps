@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="msapplication-tap-highlight" content="no">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>5 Reel Drive</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+ 
+  <!--fonts-->
+  <link href="fonts/font-awesome" >
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+   
+
+  <!--    <script src="js/main.js"></script> -->
+	
+<script src="js/jquery-1.11.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>  
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	function getParameterByName(name) {
+		name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+		var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"), results = regex
+				.exec(location.search);
+		return results === null ? "" : decodeURIComponent(results[1].replace(
+				/\+/g, " "));
+	}
+
+
+	
+	function loadUrl(location){
+	
+	
+	app.url = "http://www.c9casino.com/games.aspx";
+    	var ref = window.open(app.url, '_self', 'location=no');
+    	app.ref.show();
+    	app.ref.addEventListener('exit', function(event){  navigator.app.exitApp(); });
+	}
+	
+	
+	
+	function changeLanguage(){
+	
+              var param = getParameterByName("btag");
+              var select = document.getElementById("langu");
+              var language = select.options[select.selectedIndex].value;
+              var url = " ";
+              
+	if(param == ""){
+	
+	        	url = "https://mobile2.gameassists.co.uk/MobileWebServices_40/casino/game/launch/CrazyVegas/5ReelDrive/"+language+"?&Bannertag1=w32361c847p001b11372d&bannertag2=2&ispracticeplay=false"
+	        }
+	        else{
+	        	url = "https://mobile2.gameassists.co.uk/MobileWebServices_40/casino/game/launch/CrazyVegas/5ReelDrive/"+language+"?&Bannertag1="+param+"&bannertag2=2&ispracticeplay=false";
+	        }
+
+          var ref = window.open(url,'_ref', 'location=no');
+          ref.show();
+          app.ref.addEventListener('exist', function(event)
+             {
+            navigator.app.exitApp();
+               });
+       }
+	
+	
+	
+	
+</script>
+</head>
+
+<body class="body-new">
+     <center style="height:100%;">
+	 <div class="container">
+          <div class="text-center transparentBG"  >
+		  <a href="#"><img src="img/icon.png" alt="Logo"></a>
+            
+            
+              <h2 style="font-family:fontAwesome" class="wow fadeIn" data-wow-delay="0.5s">Select Language</h2>
+
+ 
+
+  <div class="form-group">
+
+  <select class="form-control center-control" onchange="changeLanguage()" style="font-size:20px;" id="langu">
+  
+  <option value=""></option>
+
+  <option value="en">English</option>
+
+  <option value="fr">Francais</option>
+
+  <option value="ru">&#1056;&#1059;&#1057;&#1057;&#1050;&#1048;&#1049;</option>
+
+  <option value="de">Deutsche</option>
+
+  <option value="sv">Svensk</option>
+
+          </select>
+
+          </div>
+
+            
+
+
+      
+<a onclick="loadUrl()">More Games</a>
+
+    
+
+</div>
+
+			 
+          </div>
+    </center>
+   
+    </body>
+</html>

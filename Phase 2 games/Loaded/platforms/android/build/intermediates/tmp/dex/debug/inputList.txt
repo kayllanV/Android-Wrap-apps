@@ -1,0 +1,5 @@
+/Users/AswiniLavu/Documents/new projects/Loaded/platforms/android/build/intermediates/classes/debug
+/Users/AswiniLavu/Documents/new projects/Loaded/platforms/android/build/intermediates/pre-dexed/debug/classes-b7512094b0859002dc458ea4db00ea62bb61bde1.jar
+/Users/AswiniLavu/Documents/new projects/Loaded/platforms/android/build/intermediates/pre-dexed/debug/AF-Android-SDK-v3.3.0-f523232c1271e7686548df388353fdf61c87c283.jar
+/Users/AswiniLavu/Documents/new projects/Loaded/platforms/android/build/intermediates/pre-dexed/debug/classes-1824dfe7ad5e32f8141e82a191cb27ccf6d9996e.jar
+/Users/AswiniLavu/Documents/new projects/Loaded/platforms/android/build/intermediates/pre-dexed/debug/google-play-services-f681ae316fd677fbad03abfe6d1faa887f9ad78f.jar

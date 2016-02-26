@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color:white;
+	margin: 0;
+}
+
+.wrap {
+	position: fixed;
+	width:100%;
+	height:100%;
+	background-color:black;
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.components {
+	position: fixed;
+	background:url(../img/lobby-logo.png) no-repeat center center;
+	background-size:contain;
+	background-position:center;
+	height:100%;
+	width:100%;
+}
+
+.logo{
+}
+
+.logo img{
+	position: fixed;
+	height:160px;
+	width:340px;
+}
+
+.buttons{
+	text-align: center; 
+	position: relative;
+	padding-top:40%
+  
+}
+
+.real input[type="button"] {
+	padding-left:10px;
+    color:#08233e;
+    font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+    font-size:70%;
+    padding:14px;
+    background:url(overlay.png) repeat-x center #ffcc00;
+    background: #b4ddb4; /* Old browsers */
+	background: -moz-linear-gradient(top, #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b4ddb4), color-stop(17%,#83c783), color-stop(33%,#52b152), color-stop(67%,#008a00), color-stop(83%,#005700), color-stop(100%,#002400)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+    border:2px #9f9f9f;
+    border-style: ridge;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border-bottom:1px solid #9f9f9f;
+    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    cursor:pointer;
+    display:inline;
+    width:30%;
+}
+.real input[type="button"]:hover {
+    background-color:rgba(255,204,0,0.8);
+}
+
+.free input[type="button"] {
+	padding-left:10px;
+    color:#08233e;
+    font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+    font-size:70%;
+    padding:14px;
+    background:url(overlay.png) repeat-x center #ffcc00;
+	background: #ffb76b; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb76b), color-stop(50%,#ffa73d), color-stop(51%,#ff7c00), color-stop(100%,#ff7f04)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6 */
+    border:2px #9f9f9f;
+    border-style: ridge;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border-bottom:1px solid #9f9f9f;
+    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    cursor:pointer;
+    display:inline;
+    width:30%;
+}
+.free input[type="button"]:hover {
+    background-color:rgba(255,204,0,0.8);
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 360px) {
+
+	.buttons{
+		text-align: center; 
+		position: relative;
+		padding-top:3%
+	  
+	}
+}
